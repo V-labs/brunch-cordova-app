@@ -1,0 +1,23 @@
+{
+    "author": "Valentin Ferriere",
+    "name": "brunch-vlabs-app",
+    "description": "Brunch skeleton to quickly start a new application",
+    "version": "0.0.1",
+    "homepage": "http://www.v-labs.fr/",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:V-labs/brunch-vlabs-app.git"
+    },
+    "dependencies": {
+        "clean-css-brunch": ">= 1.5.1",
+        "css-brunch": ">= 1.5.1",
+        "handlebars-brunch": ">= 1.5.2",
+        "javascript-brunch": ">= 1.5.1",
+        "less-brunch": ">= 1.5.1",
+        "uglify-js-brunch": ">= 1.5.1"
+    },
+    "devDependencies": {
+        "mocha": ">= 1.8.2",
+        "expect.js": ">= 0.2.0"
+    }
+}
