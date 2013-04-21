@@ -64,7 +64,9 @@ handleResources = function() {
     var fs = require('fs');
     var wrench = require('./configs/wrench');
 
-    fs.mkdir('plugins');
+    fs.mkdir('plugins', function() {
+        console.log('Plugins folder created');
+    });
 
     var stream = fs.createReadStream('./www/config.xml');
     stream.pipe(fs.createWriteStream('./src/app/assets/config.xml'));
