@@ -1,4 +1,4 @@
-var _ = require('./src/vendor/scripts/underscore-1.4.4');
+var _ = require('./configs/underscore-1.4.4');
 
 var spawn = require('child_process').spawn;
 var supportedPlatform = ['ios', 'android', 'blackberry'];
