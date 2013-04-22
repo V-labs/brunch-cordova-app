@@ -1,6 +1,6 @@
 # Cordova with brunch application skeleton
 
-This repository is a starter kit for a PhoneGap / Cordova application. It assume that you have already configured your SDKs for each platforms SDK you want to use (ios / android / blackberry).
+This repository is a starter kit for a PhoneGap / Cordova application. It assume that you have already configured your SDKs for each platform you want to use (ios / android / blackberry).
 
 ## Prerequisites
 
