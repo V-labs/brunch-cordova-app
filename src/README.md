@@ -1,22 +1,22 @@
-# Brunch V-labs Skeleton
+# Brunch application skeleton for mobile web apps
 
-This repository is a [Brunch](http://brunch.io/) skeleton that utilizes [Bootstrap](http://twitter.github.com/bootstrap/), [Backbone](http://backbonejs.org/), [Handlebars](http://handlebarsjs.com/), and [LESS](http://lesscss.org/). It also includes [Backbone.Mediator](https://github.com/chalbert/Backbone-Mediator) for Pub/Sub patterns.
+This repository is a [Brunch](http://brunch.io/) skeleton that utilizes [Bootstrap](http://twitter.github.com/bootstrap/), [Backbone](http://backbonejs.org/), [Handlebars](http://handlebarsjs.com/), [Zepto](http://zeptojs.com/) and [LESS](http://lesscss.org/). It includes [Backbone.Mediator](https://github.com/chalbert/Backbone-Mediator) for Pub/Sub patterns. It also embed Zepto, because we don't need to support legacy browsers for a mobile first app.
 
 ## Getting started
 
-Make sure to have [Brunch.io](http://brunch.io) installed.
+You should read the [README](https://github.com/V-labs/brunch-cordova-app/blob/master/README.md) file located in the parent folder. This skeleton can be used as a base for a mobile website, but the main goal is to use it inside a Phonegap/Cordova application.
 
-Create your project with:
+If you want to use it for a mobile website, just get this folder (src) and the run these commands to make it work :
 
-	brunch new <your-project-name> -s git@github.com:V-labs/brunch-vlabs-app.git
-		
-Or simply copy the repository to your hard drive and rename it.
+Install node modules :
 
-Then, go to your new created folder and start assets compilation watcher with:
+	npm install
+
+Watch for sources changes :
 
 	brunch w
 
-or for minified assets, without watch (production build) :
+Build for production :
 
 	brunch build -o
 
@@ -34,4 +34,4 @@ jQuery plugins used by Bootstrap are all listed (in the right order) inside the 
 
 ## Credit
 This skeleton was spawned from [Brunch with Banana Pancakes](https://github.com/Anaphase/brunch-banana-pancakes).
-It's nearly the same, but without SASS & Coffee script support, because I don't use them.
+It's nearly the same, but without SASS & Coffee script support, because I don't use them. 
